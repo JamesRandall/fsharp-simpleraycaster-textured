@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Model.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="Render.fs" />
+    <Compile Include="Map.fs" />
+    <Compile Include="Graphics.fs" />
+    <Compile Include="Game.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Browser.Dom" Version="2.10.0" />
+    <PackageReference Include="Fable.Browser.Performance" Version="1.1.0" />
+    <PackageReference Include="Fable.Core" Version="3.6.2" />
+    <PackageReference Update="FSharp.Core" Version="6.0.3" />
+    <PackageReference Include="Fable.SimpleHttp" Version="3.1.0" />
+  </ItemGroup>
+</Project>
